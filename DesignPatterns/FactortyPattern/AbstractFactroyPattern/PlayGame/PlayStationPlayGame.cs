@@ -9,10 +9,10 @@ namespace DesignPatterns.FactortyPattern.AbstractFactroyPattern.PlayGame
     {
         protected override void PrepateItems()
         {
-            PlayStationGameFactroy playStationGameFactroy = new PlayStationGameFactroy();
-            gameCd = playStationGameFactroy.CreateGameCd();
-            gameConsole = playStationGameFactroy.CreateGameConsole();
-            gameController = playStationGameFactroy.CreateGameController();
+            PlayStationGameFactory playStationGameFactory = new PlayStationGameFactory();
+            gameCd = playStationGameFactory.CreateGameCd();
+            gameConsole = playStationGameFactory.CreateGameConsole();
+            gameController = playStationGameFactory.CreateGameController();
         }
     }
 }

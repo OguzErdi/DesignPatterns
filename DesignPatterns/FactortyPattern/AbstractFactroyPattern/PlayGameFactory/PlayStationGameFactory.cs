@@ -7,7 +7,7 @@ using System.Text;
 
 namespace DesignPatterns.FactortyPattern.AbstractFactroyPattern.PlayGameFactroy
 {
-    public class PlayStationGameFactroy : IPlayGameFactroy
+    public class PlayStationGameFactory : IPlayGameFactroy
     {
         public IGameCd CreateGameCd()
         {

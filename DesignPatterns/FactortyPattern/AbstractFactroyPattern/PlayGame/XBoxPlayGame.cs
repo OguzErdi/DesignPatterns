@@ -12,10 +12,10 @@ namespace DesignPatterns.FactortyPattern.AbstractFactroyPattern.PlayGame
     {
         protected override void PrepateItems()
         {
-            XBoxGameFactroy xBoxGameFactroy = new XBoxGameFactroy();
-            gameCd = xBoxGameFactroy.CreateGameCd();
-            gameConsole = xBoxGameFactroy.CreateGameConsole();
-            gameController = xBoxGameFactroy.CreateGameController();
+            XBoxGameFactory xBoxGameFactory = new XBoxGameFactory();
+            gameCd = xBoxGameFactory.CreateGameCd();
+            gameConsole = xBoxGameFactory.CreateGameConsole();
+            gameController = xBoxGameFactory.CreateGameController();
         }
     }
 }
