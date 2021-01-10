@@ -10,7 +10,8 @@ namespace Demo
             //DecoratorPatternDemo.Start();
             //SingletonPatternDemo.Start();
             //FactoryMethodPatternDemo.Start();
-            AbstractFactoryPatternDemo.Start();
+            //AbstractFactoryPatternDemo.Start();
+            CommandPatternDemo.Start();
         }
     }
 }
