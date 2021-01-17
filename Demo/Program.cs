@@ -11,7 +11,9 @@ namespace Demo
             //SingletonPatternDemo.Start();
             //FactoryMethodPatternDemo.Start();
             //AbstractFactoryPatternDemo.Start();
-            CommandPatternDemo.Start();
+            //CommandPatternDemo.Start();
+            //AdapterPatternDemo.Start();
+            FacadePatternDemo.Start();
         }
     }
 }
