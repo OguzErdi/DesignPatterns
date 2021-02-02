@@ -32,12 +32,13 @@ namespace DesignPatterns.TemplateMethodPattern
         }
 
         //hook method
-        //optional to override, thus add virtual
+        //subclass may want to override but not must -> add virtual
         protected virtual bool WannaSnack()
         {
             return true;
         }
 
+        //subclass have to override -> add abstract
         public abstract void OpenConsole();
     }
 }
