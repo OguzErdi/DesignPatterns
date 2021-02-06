@@ -15,7 +15,8 @@ namespace Demo
             //AdapterPatternDemo.Start();
             //FacadePatternDemo.Start();
             //TemplateMethodPatternDemo.Start();
-            StatePatternDemo.Start();
+            //StatePatternDemo.Start();
+            ProxyPatternDemo.Start();
 
         }
     }
